@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Restaurant.create(name: "Scottiz NYC", address: "298 Atlantic Ave, Brooklyn, NY 11201")
+
+Pizza.create(name: "Cheese", ingredients: "Dough, Tomato Sauce, Cheese")
+
+RestaurantPizza.create(price: 5, pizza_id: 1, restaurant_id: 2)
+
+
+puts "Done Seeding!"
